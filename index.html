@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Save to Disk Demo</title>
+  <script type="module">
+    import { openDB } from 'https://cdn.jsdelivr.net/npm/idb@8/+esm';
+    window.openDB = openDB;
+  </script>  
+</head>
+<body>
+  <h1>🧠 Save & Load from Disk</h1>
+  <textarea id="editor" rows="10" cols="50">{"hello":"world"}</textarea><br><br>
+  <button id="save" type="button">💾 Save to Disk</button>
+  <button id="load" type="button">📂 Load from Disk</button>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
