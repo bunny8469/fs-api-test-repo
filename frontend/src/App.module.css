@@ -1,0 +1,21 @@
+main {
+  max-width: 600px;
+  height: 100vh;
+  background-color: #eee;
+  margin: auto;
+  color:black;
+  padding: 2rem;
+}
+
+header {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-wrap: nowrap;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    text-align: left;
+  }
+}
